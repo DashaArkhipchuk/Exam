@@ -6,31 +6,41 @@
     <title>Bootstrap demo</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous"> -->
+
+
+
     <link rel="stylesheet" href="../CSS/style.css">
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="../JS/script.js"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script> -->
   </head>
   <body>
-    <nav class="navbar bg-white">
+    <header class="navbar bg-white" id="header">
       <div class="container-fluid py-3">
         <span class="navbar-brand mb-0 h1 ms-5" style="color:#f9bda9; font-weight:normal">YOURCOMPANYNAME</span>
       </div>
-    </nav>
+    </header>
     <div class="image">
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid text-white">
           <div class="navbar-header d-flex flex-nowrap" id="navbarNavDropdown">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#header">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link" href="#sector1">Our team leaders</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Services</a>
+                <a class="nav-link" href="#statistics">Our achivements</a>
               </li>
-              <li class="nav-item dropdown d-flex justify-content-center text-center ">
+              <!-- <li class="nav-item dropdown d-flex justify-content-center text-center ">
                 <a class="nav-link dropdown-toggle" id="testimonials" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Testimonials
                 </a>
@@ -38,13 +48,13 @@
                   <li><a class="dropdown-item" style="width:110px" href="#">Testimonial 1</a></li>
                   <li><a class="dropdown-item" style="width:110px" href="#">Testimonial 2</a></li>
                   <li><a class="dropdown-item" style="width:110px" href="#">Testimonial 3</a></li>
-                </ul>
+                </ul> -->
               </li>
               <li class="nav-item" id="portfolio">
-                <a class="nav-link" href="#">Portfolio</a>
+                <a class="nav-link" href="#formwrapper">Contact  us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contacts</a>
+                <a class="nav-link" href="#aboutsection">About us</a>
               </li>
             </ul>
           </div>
@@ -55,32 +65,32 @@
         <h1>YOURCOMPANYNAME</h1>
       </div>
     </div>
-    <div class="sector1" width="100vw">
+    <div class="sector1" width="100vw" id="sector1">
       <div class="head d-flex flex-column justify-content-center align-items-center text-center">
         <h1 style="color:#c56b47; font-weight: normal;" class="my-0 mt-5">Our team leaders</h1>
         <hr>
       </div>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis varius, mauris nec vulputate aliquam, est sem vehicula tellus, eu congue dui purus non metus. Pellentesque rhoncus dui nec mattis rutrum. Vestibulum quis elit tempus, posuere metus eget, accumsan diam. Mauris dapibus sit amet diam quis fringilla. Vestibulum sollicitudin purus at mi faucibus, eget molestie diam pretium. In hac habitasse platea dictumst. Ut tellus nisl, consectetur et aliquet at, sollicitudin eget elit. </p>
+      <p>At YourCompanyName, we are driven by a dedicated team of exceptional leaders who bring diverse expertise, innovative thinking, and unwavering commitment to our mission. Our leadership team is composed of professionals from various backgrounds, each contributing unique skills and perspectives to guide our company towards success. Our team leaders are not just experts in their fields; they are passionate individuals dedicated to fostering a collaborative and inclusive environment. Together, they inspire our teams to achieve excellence and deliver outstanding value to our clients.</p>
       <div class="mt-5 item">
         <div class="d-dlex flex-column justify-content-center text-center align-items-center">
           <div></div>
           <div style="width:400px;" class="d-flex flex-column justify-content-center text-center align-items-center">
             <h2 class="mt-5">Hugo Silva</h2>
-            <p class="my-4 text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem, dicta blanditiis maxime consequatur obcaecati exercitationem. Odio laudantium expedita fugit atque, enim, quidem sequi hic aliquam ex, accusamus iure voluptatibus amet!</p>
+            <p class="my-4 text-center">With over 15 years of experience in the industry, Hugo Silva has been the visionary behind our strategic direction. Their leadership has been instrumental in fostering a culture of excellence and driving our company’s growth.</p>
           </div>
         </div>
         <div class=" d-dlex flex-column justify-content-center text-center align-items-center">
           <div></div>
           <div style="width:400px;" class="d-flex flex-column justify-content-center text-center align-items-center"> 
             <h2 class="mt-5">Jane Lorem</h2>
-            <p class="my-4 text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem, dicta blanditiis maxime consequatur obcaecati exercitationem. Odio laudantium expedita fugit atque, enim, quidem sequi hic aliquam ex, accusamus iure voluptatibus amet!</p>
+            <p class="my-4 text-center">Jane Lorem brings a wealth of experience and a keen eye for detail to our operational framework. With a background in IT, she has a proven track record of optimizing processes, enhancing efficiency, and driving organizational success.</p>
           </div>  
         </div>
         <div class="d-dlex flex-column justify-content-center text-center align-items-center">
           <div></div>
           <div style="width:400px;" class="d-flex flex-column justify-content-center text-center align-items-center"> 
             <h2 class="mt-5">Elizabeth Lorem</h2>
-            <p class="my-4 text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem, dicta blanditiis maxime consequatur obcaecati exercitationem. Odio laudantium expedita fugit atque, enim, quidem sequi hic aliquam ex, accusamus iure voluptatibus amet!</p>
+            <p class="my-4 text-center">Elizabeth Lorem is the financial steward of YourCompanyName, ensuring that our financial practices support sustainable growth and long-term stability. With extensive experience in financial management, corporate finance, and strategic planning.</p>
           </div>  
         </div>
       </div>
@@ -110,30 +120,32 @@
         <img src="../Icons/Businesswoman.png" class="woman"></div>
       </div>
     </div>
-    <div class="formwrapper">
+    <div class="formwrapper" id="formwrapper">
       <h2 class="text-white" >Contact us</h2>
-      <p class="text-white">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, rem aperiam</p>
+      <p class="text-white"> Please reach out to us using the contact information below, and we will get back to you as soon as possible. We look forward to connecting with you!</p>
       <div class="form">
         <div class="d-flex justify-content-around my-5">
           <input type="text" class="bg-transparent fs-3" placeholder="Name" style="color:rgba(255, 255, 255, 0.521)">
           <select name="select" id="select" class="fs-3">
             <option hidden selected>Category</option>
-            <option value="1">Category 1</option>
-            <option value="2">Category 2</option>
-            <option value="3">Category 3</option>
-            <option value="4">Category 4</option>
-            <option value="5">Category 5</option>
+            <option value="1">Feedback and Suggestions</option>
+            <option value="2">Partnership Opportunities</option>
+            <option value="3">Career Opportunities</option>
+            <option value="4">Customer Support</option>
+            <option value="5">Project Proposals</option>
+            <option value="6">Other</option>
            </select>
         </div>
         <div class="d-flex justify-content-around my-5">
           <input type="text" class="bg-transparent fs-3" placeholder="Phone" style="color:rgba(255, 255, 255, 0.521)">
           <select name="select" id="select" class="fs-3">
             <option hidden selected>City</option>
-            <option value="1">City 1</option>
-            <option value="2">City 2</option>
-            <option value="3">City 3</option>
-            <option value="4">City 4</option>
-            <option value="5">City 5</option>
+            <option value="1">Jihlava</option>
+            <option value="2">Brno</option>
+            <option value="3">Prague</option>
+            <option value="4">Pilsen</option>
+            <option value="5">Ostrava</option>
+            <option value="5">Other (please specify)</option>
           </select>
           <!-- <input type="text" class="bg-transparent fs-3" placeholder="Name" > -->
         </div>
@@ -144,16 +156,41 @@
           <textarea type="text" class="bg-transparent fs-3" placeholder="Message" style="color:rgba(255, 255, 255, 0.521)"></textarea>
         </div>
         <div class="submit d-flex justify-content-end" style="width:95%;">
-          <input type="submit" value="Contact us" class="py-3">
+          <button class="py-3" data-bs-toggle="modal" data-bs-target="#contactModal">Contact us&nbsp;&nbsp;<i class="bi bi-pencil"></i> </button>
+        </div>
+      </div>
+      <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="contactModalLabel">Contact Us</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body text-center">
+              <div id="progressContainer">
+                <div class="progress">
+                  <div id="progressBar" class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+                <div id="completionText" style="display: none;">
+                  <h3><i class="bi bi-check-lg"></i></h3>
+                  <p>Your message has been sent successfully</p>
+                  <p>Thank you for your message. We will get back to you as soon as possible.</p>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    <div class="aboutsection">
+    <div class="aboutsection" id="aboutsection">
       <div class="d-flex justify-content-around position-relative" style="top:200px;">
         <div class="officepicture mb-5"></div>
         <div class="aboutus mt-5">
           <h2 style="font-size:40pt">About us</h2>
-          <p class="px-5">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, rem aperiam</p>
+          <p class="px-5">Welcome to our world at YourCompanyName, where innovation meets dedication. Dive into our story, where passion drives our commitment to excellence.</p>
           <div class="d-flex dlex-row">
             <div style="width:80px; height:80px; border-radius: 50%; background-image: url(https://img.tsn.ua/cached/022/tsn-5158ca2e1423d82bb1a288ac9a4ee131/thumbs/608xX/78/7a/fac4d1dc5c8542e851acd48a572e7a78.jpg); background-size: cover; margin-left:35px; margin-right: 25px;"></div>
             <div style="width:80px; height:80px; border-radius: 50%; background-image: url(https://p0.pikist.com/photos/246/372/stock-market-charts-graphs-finance-money-stocks-macbook-computer-laptop.jpg); background-size: cover; background-position-x: -40px; margin-left:35px; margin-right: 25px;"></div>
@@ -165,12 +202,15 @@
             <div style="width:140px;  height:25px; border-right: 1px solid black;"></div>
           </div>
           <div class="d-flex dlex-row">
-            <div style="width:130px; height:100px; border:1px solid black; margin-left:15px; margin-right: 15px; padding: 5px;"><p style="font-size:9pt">Quis id voluptatem facere enim cumque placeat maiores explicabo sed porro</p></div>
-            <div style="width:130px; height:100px; border:1px solid black; margin-left:15px; margin-right: 15px; padding: 5px;"><p style="font-size:9pt">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p></div>
-            <div style="width:130px; height:100px; border:1px solid black; margin-left:15px; margin-right: 15px; padding: 5px;"><p style="font-size:9pt;">Deserunt doloribus quaerat neque alias eos voluptates optio consectetur libero blanditiis?</p></div>
+            <div style="width:130px; height:100px; border:1px solid black; margin-left:15px; margin-right: 15px; padding: 5px;"><p style="font-size:9pt">We create a trustful atmosphere where your needs are our priority.</p></div>
+            <div style="width:130px; height:100px; border:1px solid black; margin-left:15px; margin-right: 15px; padding: 5px;"><p style="font-size:9pt">We are committed to enhancing your professional growth.</p></div>
+            <div style="width:130px; height:100px; border:1px solid black; margin-left:15px; margin-right: 15px; padding: 5px;"><p style="font-size:9pt;"> Available 24/7, we ensure you receive support whenever you need it.</p></div>
           </div>
         </div>
       </div>
     </div>
+    <footer class="d-flex flex-column justify-content-center text-center align-items-center">
+      <p class="my-2">© 2024 Daryna Arkhypchuk. All rights reserved. </p>
+    </footer>
   </body>
 </html>

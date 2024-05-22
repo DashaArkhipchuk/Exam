@@ -30,15 +30,13 @@ ul>li:hover{
 }
 
 ul>li>a{
-    color:red;
     transition: all 1s;
 }
 ul>li>a:hover{
     background-color: rgba(163, 187, 194, 0);
-    color:red;
     transition: all 1s;
 }
-.dropdown-item:hover{
+/* .dropdown-item:hover{
     background-color: rgba(163, 187, 194, 0);
     transition: all 1s;
 }
@@ -48,7 +46,7 @@ ul>li>a:hover{
 }
 .dropdown{
     transition: all 1s;
-}
+} */
 
 .navbar-header>.navbar-nav>.nav-item>.nav-link{
     color:rgba(255, 255, 255, 0.8);
@@ -120,8 +118,8 @@ ul>li>a:hover{
 }
 
 .sector1>div>div:nth-child(2)>div:nth-child(1){
-    background-image:url(https://www.marieclaire.com.au/media/92075/white-shirt.jpg?width=720&center=0.0,0.0);
-    width:400px; height:600px; background-size:cover; background-position: -50px;
+    background-image:url(https://th.bing.com/th/id/OIP._7masiFlWQi7GmM7ZwVp2AHaT5?rs=1&pid=ImgDetMain);
+    width:400px; height:600px; background-size:cover;
     -webkit-filter: grayscale(100%); 
     filter: grayscale(100%);
 }
@@ -265,7 +263,7 @@ select option {
     border: 0px solid red;
     border-bottom: 1px solid rgba(255, 255, 255, 0.521);
 }
-.submit>input[type=submit]{
+.submit>button{
     color:white;
     background-color: #995537;
     border: 1px solid #6c351e;
@@ -275,7 +273,7 @@ select option {
     transition: all .2s;
 }
 
-.submit>input[type=submit]:active {
+.submit>button:active {
     box-shadow: 0 5px 0 #6c351e;
     transform: translateY(5px);
 }
@@ -348,6 +346,12 @@ select option {
     }
 } */
 
+footer{
+    background-color: #0f333b;
+    color: rgba(255, 255, 255, 0.521);
+    
+}
+
 @media screen and (max-width:1430px){
     .sector1>div>div:nth-child(3)>div:nth-child(1){
         width:250px;
@@ -381,6 +385,9 @@ select option {
     }
     .formwrapper{
         height:100vh;
+    }
+    .navbar{
+        position: initial;
     }
 }
 @media screen and (max-width:1030px){
@@ -753,6 +760,13 @@ select option {
         position: relative;
         left:15px;
     }
+    footer{
+        width: 500px;
+    }
+    .submit>button{
+        width:130px;
+    }
+    
 }
 
 @media screen and (max-width:475px){
